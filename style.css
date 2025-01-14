@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calendar-container {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+.controls select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th {
+    font-weight: bold;
+}
+
+td, th {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+td.selected {
+    background-color: #FACDD0; /* 粉色背景 */
+    border-radius: 50%;
+}
+
+.footer {
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
